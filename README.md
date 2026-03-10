@@ -34,7 +34,7 @@ Dashboard Ready: Pre-structured dashboard for future user data and analytics dis
 
 **Installation & Setup**
 
-1️⃣ Clone the Repository git clone https://github.com/yourusername/homefix.git cd homefix
+1️⃣ Clone the Repository https://github.com/AKF-Code-Zone/Home-Maintenance-Services-Website 
 
 2️⃣ Install Dependencies npm install
 
