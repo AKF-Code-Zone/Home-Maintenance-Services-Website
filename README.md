@@ -1,4 +1,4 @@
-VERVIEW:
+OVERVIEW:
 
 ->HomeFix is a React.js application designed to help users easily find and book home maintenance services such as plumbing, electrical repair, and cleaning. ->It features a clean and professional design, smooth navigation using React Router, and modular component-based architecture. Each section (Home, About, Services, Contact, Login, Registration, Dashboard) is built for clarity and responsiveness.
 
