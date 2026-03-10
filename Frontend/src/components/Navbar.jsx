@@ -22,7 +22,7 @@ function Navbar() {
 
       {/* Right-side Buttons */}
       <div className="nav-buttons">
-        <Link to="/login">
+         <Link to="/login">
           <button className="btn-outline">Login</button>
         </Link>
         <Link to="/registration">

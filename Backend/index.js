@@ -12,7 +12,7 @@ connectDB();
 import cookieParser from "cookie-parser";
 import userRoutes from "./routes/userRoutes.js";
 import bookingRoutes from "./routes/booking.js";
-
+import chatRoutes from "./routes/chat.js";
 const app = express();
 
 // Middleware
@@ -28,7 +28,7 @@ app.use(
 // Routes
 app.use("/user", userRoutes);
 app.use("/api/bookings", bookingRoutes);
-
+app.use("/api/chat", chatRoutes);
 // Default route
 app.get("/", (req, res) => {
   res.send("API is running...");

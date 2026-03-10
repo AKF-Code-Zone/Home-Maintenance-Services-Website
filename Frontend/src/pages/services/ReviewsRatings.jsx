@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../../App.css";
 
 const ReviewsRatings = () => {
-  const [showForm, setShowForm] = useState(false);
+  const navigate = useNavigate();
   const [reviews, setReviews] = useState([
     {
       name: "Alice Johnson",
@@ -42,15 +43,13 @@ const ReviewsRatings = () => {
     }
   ]);
 
-  const [newReview, setNewReview] = useState({ name: "", comment: "" });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (newReview.name && newReview.comment) {
-      setReviews([...reviews, { ...newReview, rating: 5 }]);
-      setNewReview({ name: "", comment: "" });
-      setShowForm(false);
-    }
+  const handleLeaveReview = () => {
+    // Redirect to login page when user clicks "Leave a Review"
+    navigate("/login", {
+      state: {
+        redirectMessage: "Please login to leave a review"
+      }
+    });
   };
 
   return (
@@ -75,37 +74,11 @@ const ReviewsRatings = () => {
       <div className="review-button-container">
         <button
           className="review-button"
-          onClick={() => setShowForm(!showForm)}
+          onClick={handleLeaveReview}
         >
-          {showForm ? "Cancel" : "Leave a Review"}
+          Leave a Review
         </button>
       </div>
-
-      {/* Review Form */}
-      {showForm && (
-        <form className="review-form" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Your Name"
-            value={newReview.name}
-            onChange={(e) =>
-              setNewReview({ ...newReview, name: e.target.value })
-            }
-            required
-          />
-          <textarea
-            placeholder="Write your review..."
-            value={newReview.comment}
-            onChange={(e) =>
-              setNewReview({ ...newReview, comment: e.target.value })
-            }
-            required
-          ></textarea>
-          <button type="submit" className="submit-btn">
-            Submit Review
-          </button>
-        </form>
-      )}
     </div>
   );
 };

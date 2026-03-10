@@ -15,6 +15,9 @@ import Registration from "./pages/Registration";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import ViewBookings from "./pages/ViewAllBooking";
+import ServiceRating from "./pages/Rating";
+import RatingManagement from "./pages/PendingReviews"; 
+
 function App() {
   return (
     <>
@@ -33,6 +36,9 @@ function App() {
         <Route path="/registration" element={<Registration />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/bookings" element={<ViewBookings />} />
+        <Route path="/rate-service/:bookingId" element={<ServiceRating />} />
+        <Route path="/pending-reviews" element={<RatingManagement />} />
+      
       </Routes>
       <Footer />
     </>

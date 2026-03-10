@@ -15,7 +15,7 @@ const Services = () => {
           <img src="/images/chat.jpg" alt="Instant Chat" />
           <h3>Instant Chat</h3>
           <p>Chat live with service providers for quick communication.</p>
-          <Link to="/services/instant-chat">
+          <Link to="/login">
             <button className="view-btn">View More</button>
           </Link>
         </div>
@@ -24,7 +24,7 @@ const Services = () => {
           <img src="/images/booking.jpg" alt="Booking Service" />
           <h3>Booking Service</h3>
           <p>Book or cancel services in seconds with real-time updates.</p>
-          <Link to="/services/booking-service">
+          <Link to="/login">
             <button className="view-btn">View More</button>
           </Link>
         </div>
@@ -33,7 +33,7 @@ const Services = () => {
           <img src="/images/finder.jpg" alt="Service Area Finder" />
           <h3>Service Area Finder</h3>
           <p>Find nearby professionals in your location instantly.</p>
-          <Link to="/services/service-area-finder">
+          <Link to="/login">
             <button className="view-btn">View More</button>
           </Link>
         </div>
@@ -42,7 +42,7 @@ const Services = () => {
           <img src="/images/technician.jpg" alt="Technician Availability" />
           <h3>Technician Availability</h3>
           <p>Check which technicians are free in real time.</p>
-          <Link to="/services/technician-availability">
+          <Link to="/login">
             <button className="view-btn">View More</button>
           </Link>
         </div>
