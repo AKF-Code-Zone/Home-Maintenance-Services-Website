@@ -13,17 +13,24 @@ Instant Communication: ReadyPlaceholder for integrating real-time chat or bookin
 Authentication Pages : Dedicated login and registration pages designed for easy backend integration.
 Mobile-Friendly Layout : All pages are fully optimized for phones and tablets.
 Dashboard Ready: Pre-structured dashboard for future user data and analytics display.
-Tech Stack:
 
+Tech Stack:
 -> Layer And Technology:
 
 Frontend :React.js (Functional Components, Hooks)
+
 Routing:React Router DOM
+
 Styling:Custom CSS (App.css, index.css), tailwind CSS
+
 Icons & UI Elements: react-icons
+
 Build Tool : Vite (fast dev server) or Create React App
+
 IDE Used: Visual Studio Code
+
 Version Control: Git & GitHub
+
 Installation & Setup
 
 1️⃣ Clone the Repository git clone https://github.com/yourusername/homefix.git cd homefix
@@ -34,7 +41,7 @@ Installation & Setup
 
 4️⃣ Open in Browser -> Visit: http://localhost:3000
 
-Usage Instructions
+Usage Instructions:
 
 Launch the app using npm run dev.
 Navigate between pages using the top Navbar.
