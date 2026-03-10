@@ -1,9 +1,10 @@
-OVERVIEW:
+**OVERVIEW:**
 ->HomeFix is a  React.js application designed to help users easily find and book home maintenance services such as plumbing, electrical repair, and cleaning.
 ->It features a clean and professional design, smooth navigation using React Router, and modular component-based architecture.
 Each section (Home, About, Services, Contact, Login, Registration, Dashboard) is built for clarity and responsiveness.
 
-Features
+**Features**
+
 Categories:
 1. Dynamic Navigation :Built using React Router for seamless multi-page navigation without reloads. 
 2. Modern UI Design : Fully responsive, minimalistic, and user-centric design using custom. CSS.
@@ -13,7 +14,7 @@ Categories:
 6. Mobile-Friendly Layout : All pages are fully optimized for phones and tablets.
 7. Dashboard Ready: Pre-structured dashboard for future user data and analytics display.
 
-Tech Stack:
+**Tech Stack:**
 -> Layer And Technology:
 1. Frontend :React.js (Functional Components, Hooks)
 2. Routing:React Router DOM
@@ -23,7 +24,8 @@ Tech Stack:
 6. IDE Used: Visual Studio Code
 7. Version Control: Git & GitHub
 
-Installation & Setup
+**Installation & Setup**
+
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/homefix.git
 cd homefix
@@ -38,7 +40,8 @@ npm start
 -> Visit:
 http://localhost:3000
 
-Usage Instructions
+**Usage Instructions**
+
 1. Launch the app using npm run dev.
 2. Navigate between pages using the top Navbar.
 3. Explore available services on the Services Page.
