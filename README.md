@@ -17,12 +17,19 @@ Dashboard Ready: Pre-structured dashboard for future user data and analytics dis
 **Tech Stack:**
 
 -> Layer And Technology:
+
 **Frontend:** React.js (Functional Components, Hooks)
+
 **Routing:** React Router DOM
+
 **Styling:** Custom CSS (App.css, index.css), tailwind CSS
+
 **Icons & UI Elements:** react-icons
+
 **Build Tool:** Vite (fast dev server) or Create React App
+
 **IDE Used:** Visual Studio Code
+
 **Version Control:** Git & GitHub
 
 **Installation & Setup**
