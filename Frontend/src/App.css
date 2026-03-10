@@ -778,6 +778,34 @@ body {
   .nav-buttons {
     display: none;
   }
+
+  /* show mobile auth links only on small screens */
+  .mobile-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  .mobile-auth .nav-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 0;
+    border-top: 1px solid rgba(255,255,255,0.04);
+  }
+}
+
+/* Mobile-specific helpers for auth links inside the menu */
+.mobile-auth {
+  display: none; /* hide on larger screens */
+}
+
+/* Footer small-screen polish */
+.footer-bottom {
+  text-align: center;
+  padding: 1.2rem 8%;
 }
 
 /* HERO SECTION */
